@@ -1,0 +1,27 @@
+{
+  "name": "hapijs-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "test_run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiasDouglas/hapijs.git"
+  },
+  "keywords": [
+    "hapijs",
+    "javascript"
+  ],
+  "author": "Douglas Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiasDouglas/hapijs/issues"
+  },
+  "homepage": "https://github.com/DiasDouglas/hapijs#readme",
+  "dependencies": {
+    "@hapi/glue": "^6.1.0",
+    "hapi": "^18.1.0"
+  }
+}
