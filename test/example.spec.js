@@ -24,4 +24,13 @@ describe('GET /', () => {
 
         expect(res.statusCode).to.equal(200);
     });
+
+    it('responds with 404', async () => {
+        const res = await server.inject({   // injeta a requisição direto no route handler do hapi
+            method: 'get',
+            url: '/hello'
+        });
+
+        expect(res.statusCode).to.equal(404);
+    });
 });
