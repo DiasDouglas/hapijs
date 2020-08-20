@@ -24,7 +24,7 @@
   "dependencies": {
     "@hapi/basic": "^5.1.0",
     "@hapi/glue": "^6.1.0",
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "hapi": "^18.1.0",
     "joi": "^14.3.1",
     "mongoose": "^5.7.5",
